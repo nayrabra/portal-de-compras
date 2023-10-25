@@ -1,0 +1,14 @@
+h2 {
+    font-size: 1.7em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid gray;
+    width: 110%;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 20px 8px 20px;
+}
