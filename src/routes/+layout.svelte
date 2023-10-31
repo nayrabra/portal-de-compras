@@ -17,8 +17,9 @@
       <nav class="px-6 py-2 mx-auto md:flex md:justify-between md:items-center bg-white">
         <div class="flex items-center justify-between">
           <!-- Logo da página -->
-          <h1 class="w-auto">
-            <a href="" class="h-auto w-auto text-black hover:text-green-500 duration-200">Portal de Compras</a>
+          <h1 class="w-auto flex flex-row items-center">
+              <img alt="logo TRE" class="h-10 w-10" src="/src/images/TRE_Logo.png">
+              <a href="#" class="h-auto w-auto text-black hover:text-green-500 duration-200 ml-2">Portal de Compras</a>
         </h1>
           <!-- Botão do menu para dispositivos móveis -->
           <div on:click={toggleNavbar} class="flex md:hidden">
