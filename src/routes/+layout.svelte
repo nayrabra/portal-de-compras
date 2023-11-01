@@ -10,7 +10,6 @@
 
 <!-- Conteúdo principal da página -->
 <header class="header sticky top-0">
-
 <div>
     <div>
       <!-- Barra de navegação principal -->
@@ -45,13 +44,14 @@
           <input class="flex items-center space-x-2 border-none bg-gray-200 rounded-full p-1 placeholder-gray-800 text-gray-800" type="text" placeholder="Search"/>
         </form>
         </div>
-
          <!-- Formulário de pesquisa -->
-        
       </nav>
       <!-- Fim da barra de navegação principal -->
     </div>
   </div>
   <!-- Fim do conteúdo principal da página -->
 </header>
+
+
+
 <slot />
