@@ -24,7 +24,7 @@
     ];
   </script>
 
-<section class="mt-8 mr-52 mb-12 ml-12">
+<section class="my-12 mx-auto max-w-6xl">
     <div class="border-r w-1 bg-emerald-600">
       <h4 class="ml-2 whitespace-nowrap font-medium">Planejamento de Contratações</h4>
     </div>
@@ -32,10 +32,10 @@
     <p class="font-light mt-2">Ut eveniet dolor id delectus optio qui fugiat totam qui vero harum eos labore modi. Aut consequuntur nihil aut excepturi tenetur ut quia impedit? Est minus sint rem minima illum aut molestias voluptatibus sit voluptas velit non iusto harum ab maxime quisquam. Qui galisum rerum ut animi galisum vel eligendi voluptates ad saepe unde hic voluptate ipsum est corporis doloremque aut officiis assumenda.</p>  
     <p class="font-light mt-2">Ut eveniet dolor id delectus optio qui fugiat totam qui vero harum eos labore modi. Aut consequuntur nihil aut excepturi tenetur ut quia impedit? Est minus sint rem minima illum aut molestias voluptatibus sit voluptas velit non iusto harum ab maxime quisquam. Qui galisum rerum ut animi galisum vel eligendi voluptates ad saepe unde hic voluptate ipsum est corporis doloremque aut officiis assumenda. Ut eveniet dolor id delectus optio qui fugiat totam qui vero harum eos labore modi. Aut consequuntur nihil aut excepturi tenetur ut quia impedit? Est minus sint rem minima illum aut molestias voluptatibus sit voluptas velit non iusto harum ab maxime quisquam. Qui galisum rerum ut animi galisum vel eligendi voluptates ad saepe unde hic voluptate ipsum est corporis doloremque aut officiis assumenda.</p>
 </section>
-<img alt="Imagem meramente ilustrativa" class="h-auto ml-12 mb-16" src="/src/images/image 1.png">
+<img alt="Imagem meramente ilustrativa" class="h-auto mb-16 mx-auto max-w-6xl" src="/src/images/image 1.png">
 <div class="border-2 border-gray-300 mr-10 ml-8 mb-16"></div>
 
-<section class="m-8 mr-52 ml-12 mt-16">
+<section class="mx-auto max-w-6xl my-16">
     <div class="border-r w-1 bg-emerald-600">
       <h4 class="ml-2 whitespace-nowrap">Dispensa Eletrônica</h4>
     </div>
@@ -43,7 +43,7 @@
   </section>
 
   <div class="overflow-x-auto rounded-lg">
-    <table class="text-sm mb-20 ml-12 w-11/12">
+    <table class="text-sm mb-20 mx-auto w-5/6">
       {#each cardDocs as card}
         <tbody>
           <tr class="bg-[#eee9e9] border-b border-zinc-300">

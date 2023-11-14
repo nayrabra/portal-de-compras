@@ -65,21 +65,20 @@
     </div>
   </div>
   
-  <article class="mt-8 mb-8 mr-16 ml-16">
+  <article class="my-12 mx-auto max-w-6xl">
     <h3 class="text-center text-2xl font-semibold mb-8">Regulamentações da Lei nº 14.133/21 por Tema</h3>
     <div>
-      <p class="mr-8 ml-8">A nova página foi organizada por temas para auxiliar os usuários no encontro das legislações de maneira rápida e eficiente, possibilitando assim, a navegação de forma intuitiva, conforme assuntos específicos.</p>
-      <br>
-      <p class="mr-8 ml-8">Portanto, a página permite o encontro de normas de uma variedade de temas, como Rede Nacional de Contratações Públicas, Fornecedores, Políticas Públicas, Planejamento das Contratações, Execução Contratual e muito mais. <br>
+      <p class="mb-6">A nova página foi organizada por temas para auxiliar os usuários no encontro das legislações de maneira rápida e eficiente, possibilitando assim, a navegação de forma intuitiva, conforme assuntos específicos.</p>
+      <p>Portanto, a página permite o encontro de normas de uma variedade de temas, como Rede Nacional de Contratações Públicas, Fornecedores, Políticas Públicas, Planejamento das Contratações, Execução Contratual e muito mais. <br>
       Todos os assuntos estão relacionados à <strong>Lei n.º 14.133 de 1º de abril de 2021.</strong></p>
     </div> 
-    <div class="text-center m-10">
-      <button class="bg-gray-300 hover:bg-gray-400 text-blue-700 py-2 px-12 rounded-full content-center mx-auto drop-shadow-md">Lei n˚14.133/21</button>
+    <div class="text-center mt-8">
+      <button class="bg-gray-100 px-1.5 py-1.5 mt-4 border-blue-500 border text-blue-500 rounded-full transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none drop-shadow-md"><a href="#">Lei n˚14.133/21</a></button>
     </div>
   </article>
   
-  <div class="grid grid-cols-3 gap-4 mr-14 ml-14">
-    <section class="m-8 mt-16 mr-12 mb-40 ml-12"> 
+  <div class="grid grid-cols-3 gap-4 mx-auto max-w-6xl">
+    <section class="mt-16 mr-12 mb-40 ml-12"> 
       <div class="border-r w-1 bg-emerald-600">
         <h4 class="ml-2">Fornecedores</h4>
       </div>
@@ -87,7 +86,7 @@
       <p class="font-medium text-xs mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <p class="font-light text-xs mr-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
       <div class="text-center">
-        <button class="bg-gray-200 hover:bg-blue-500 text-blue-700 border-2 border-blue-700 mt-6 py-1 px-10 rounded-full">Seja um Fornecedor</button> 
+        <button class="px-1.5 py-1.5 mt-4 border-blue-500 border text-blue-500 rounded-full transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none"><a href="#">Seja um Fornecedor</a></button>
       </div>
     </section>
   
@@ -99,7 +98,7 @@
       <p class="font-medium text-xs mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <p class="font-light text-xs mr-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="text-center">
-        <button class="bg-gray-200 hover:bg-blue-500 text-blue-700 border-2 border-blue-700 mt-6 py-1 px-10 rounded-full">Faça sua Adesão</button> 
+        <button class="px-1.5 py-1.5 mt-4 border-blue-500 border text-blue-500 rounded-full transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none"><a href="#">Faça sua Adesão</a></button>
       </div>
     </section>
   
@@ -111,7 +110,7 @@
       <p class="font-medium text-xs mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <p class="font-light text-xs mr-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="text-center">
-        <button class="bg-gray-200 hover:bg-blue-500 text-blue-700 border-2 border-blue-700 mt-6 py-1 px-10 rounded-full">Ver mais</button> 
+        <button class="px-1.5 py-1.5 mt-4 border-blue-500 border text-blue-500 rounded-full transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none"><a href="#">Ver mais</a></button>
       </div>
     </section>
   </div>

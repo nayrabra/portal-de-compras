@@ -24,7 +24,7 @@
   ];
 </script>
   
-  <section class="mt-8 mr-52 mb-12 ml-12">
+  <section class="my-12 mx-auto max-w-6xl">
     <div class="border-r w-1 bg-emerald-600">
       <h4 class="ml-2 whitespace-nowrap font-medium">Documentos e Licitações</h4>
     </div>
@@ -33,7 +33,7 @@
   </section>
   <div class="border-2 border-gray-300 mr-10 ml-8"></div>
   
-  <section class="m-8 mr-52 ml-12 mt-16">
+  <section class="my-12 mx-auto max-w-6xl">
     <div class="border-r w-1 bg-emerald-600">
       <h4 class="ml-2 whitespace-nowrap">Dispensa Eletrônica</h4>
     </div>
@@ -41,7 +41,7 @@
   </section>
 
   <div class="overflow-x-auto rounded-lg">
-    <table class="text-sm mb-8 ml-12 w-11/12">
+    <table class="text-sm mb-20 mx-auto w-5/6">
       {#each cardDocs as card}
         <tbody>
           <tr class="bg-[#eee9e9] border-b border-zinc-300">
@@ -62,7 +62,7 @@
     </table>
   </div>
 
-  <section class="m-8 mr-52 ml-12 mt-12">
+  <section class="my-12 mx-auto max-w-6xl">
     <div class="border-r w-1 bg-emerald-600">
       <h4 class="ml-2 whitespace-nowrap">Obras e Serviços</h4>
     </div>
@@ -70,7 +70,7 @@
   </section>
 
   <div class="overflow-x-auto rounded-lg">
-    <table class="text-sm mb-8 ml-12 w-11/12">
+    <table class="text-sm mb-20 mx-auto w-5/6">
       {#each cardDocs as card}
         <tbody>
           <tr class="bg-[#eee9e9] border-b border-zinc-300">
@@ -91,7 +91,7 @@
     </table>
   </div>
 
-  <section class="m-8 mr-52 ml-12 mt-12">
+  <section class="my-12 mx-auto max-w-6xl">
     <div class="border-r w-1 bg-emerald-600">
       <h4 class="ml-2 whitespace-nowrap">Pregão Eletrônico</h4>
     </div>
@@ -99,7 +99,7 @@
   </section>
 
   <div class="overflow-x-auto rounded-lg">
-    <table class="text-sm mb-20 ml-12 w-11/12">
+    <table class="text-sm mb-20 mx-auto w-5/6">
       {#each cardDocs as card}
         <tbody>
           <tr class="bg-[#eee9e9] border-b border-zinc-300">
