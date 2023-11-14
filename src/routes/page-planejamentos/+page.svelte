@@ -1,99 +1,43 @@
 <script>
-  const cardDocs = [
-      {
-          title: "Documento tipo 1",
-          description: "Explicação de constituição de documento",
-          form: "Formulário",
-          doc: "Ver DOC",
-          pdf: "Ver PDF",
-      },
-      {
-          title: "Documento tipo 2",
-          description: "Explicação de constituição de documento",
-          form: "Formulário",
-          doc: "Ver DOC",
-          pdf: "Ver PDF",
-      },
-      {
-          title: "Documento tipo 3",
-          description: "Explicação de constituição de documento",
-          form: "Formulário",
-          doc: "Ver DOC",
-          pdf: "Ver PDF",
-      },
-  ];
-</script>
-  
-  <section class="mt-8 mr-52 mb-12 ml-12">
+    const cardDocs = [
+        {
+            title: "Documento tipo 1",
+            description: "Explicação de constituição de documento",
+            form: "Formulário",
+            doc: "Ver DOC",
+            pdf: "Ver PDF",
+        },
+        {
+            title: "Documento tipo 2",
+            description: "Explicação de constituição de documento",
+            form: "Formulário",
+            doc: "Ver DOC",
+            pdf: "Ver PDF",
+        },
+        {
+            title: "Documento tipo 3",
+            description: "Explicação de constituição de documento",
+            form: "Formulário",
+            doc: "Ver DOC",
+            pdf: "Ver PDF",
+        },
+    ];
+  </script>
+
+<section class="mt-8 mr-52 mb-12 ml-12">
     <div class="border-r w-1 bg-emerald-600">
-      <h4 class="ml-2 whitespace-nowrap font-medium">Documentos e Licitações</h4>
+      <h4 class="ml-2 whitespace-nowrap font-medium">Planejamento de Contratações</h4>
     </div>
     <p class="font-light mt-4">Lorem ipsum dolor sit amet. Ad culpa iusto id quibusdam inventore quo internos adipisci ut molestias iure est autem iusto qui soluta maiores. Ab quia internos est unde galisum rem quisquam consequatur nam facere libero aut voluptas maiores. In veniam dolores et nobis modi nam assumenda Quis ut modi quia quo facilis voluptas vel accusantium molestiae et velit architecto. Ut blanditiis itaque ut aliquam maxime aut autem dolorem et quia reprehenderit!</p>
     <p class="font-light mt-2">Ut eveniet dolor id delectus optio qui fugiat totam qui vero harum eos labore modi. Aut consequuntur nihil aut excepturi tenetur ut quia impedit? Est minus sint rem minima illum aut molestias voluptatibus sit voluptas velit non iusto harum ab maxime quisquam. Qui galisum rerum ut animi galisum vel eligendi voluptates ad saepe unde hic voluptate ipsum est corporis doloremque aut officiis assumenda.</p>  
-  </section>
-  <div class="border-2 border-gray-300 mr-10 ml-8"></div>
-  
-  <section class="m-8 mr-52 ml-12 mt-16">
+    <p class="font-light mt-2">Ut eveniet dolor id delectus optio qui fugiat totam qui vero harum eos labore modi. Aut consequuntur nihil aut excepturi tenetur ut quia impedit? Est minus sint rem minima illum aut molestias voluptatibus sit voluptas velit non iusto harum ab maxime quisquam. Qui galisum rerum ut animi galisum vel eligendi voluptates ad saepe unde hic voluptate ipsum est corporis doloremque aut officiis assumenda. Ut eveniet dolor id delectus optio qui fugiat totam qui vero harum eos labore modi. Aut consequuntur nihil aut excepturi tenetur ut quia impedit? Est minus sint rem minima illum aut molestias voluptatibus sit voluptas velit non iusto harum ab maxime quisquam. Qui galisum rerum ut animi galisum vel eligendi voluptates ad saepe unde hic voluptate ipsum est corporis doloremque aut officiis assumenda.</p>
+</section>
+<img alt="Imagem meramente ilustrativa" class="h-auto ml-12 mb-16" src="/src/images/image 1.png">
+<div class="border-2 border-gray-300 mr-10 ml-8 mb-16"></div>
+
+<section class="m-8 mr-52 ml-12 mt-16">
     <div class="border-r w-1 bg-emerald-600">
       <h4 class="ml-2 whitespace-nowrap">Dispensa Eletrônica</h4>
-    </div>
-    <p class="font-light mt-4">Lorem ipsum dolor sit amet. Ad culpa iusto id quibusdam inventore quo internos adipisci ut molestias iure est autem iusto qui soluta maiores. Ab quia internos est unde galisum rem quisquam consequatur nam facere libero aut voluptas maiores. In veniam dolores et nobis modi nam assumenda Quis ut modi quia quo facilis voluptas vel accusantium molestiae et velit architecto. Ut blanditiis itaque ut aliquam maxime aut autem dolorem et quia reprehenderit!</p>
-  </section>
-
-  <div class="overflow-x-auto rounded-lg">
-    <table class="text-sm mb-8 ml-12 w-11/12">
-      {#each cardDocs as card}
-        <tbody>
-          <tr class="bg-[#eee9e9] border-b border-zinc-300">
-            <th scope="row" class="font-medium text-black whitespace-nowrap">
-                {card.title}
-            </th>
-            <td>
-              {card.description}
-            </td>
-            <td class="px-2 py-2 whitespace-no-wrap border-b text-sm text-right  border-zinc-300">
-              <button class="px-2 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none mr-2"><a href="#">{card.form}</a></button>
-              <button class="px-2 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none mr-2"><a href="#">{card.doc}</a></button>
-              <button class="px-2 py-2 mr-4 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none"><a href="#">{card.pdf}</a></button>
-            </td>
-          </tr>
-        </tbody>
-        {/each}
-    </table>
-  </div>
-
-  <section class="m-8 mr-52 ml-12 mt-12">
-    <div class="border-r w-1 bg-emerald-600">
-      <h4 class="ml-2 whitespace-nowrap">Obras e Serviços</h4>
-    </div>
-    <p class="font-light mt-4">Lorem ipsum dolor sit amet. Ad culpa iusto id quibusdam inventore quo internos adipisci ut molestias iure est autem iusto qui soluta maiores. Ab quia internos est unde galisum rem quisquam consequatur nam facere libero aut voluptas maiores. In veniam dolores et nobis modi nam assumenda Quis ut modi quia quo facilis voluptas vel accusantium molestiae et velit architecto. Ut blanditiis itaque ut aliquam maxime aut autem dolorem et quia reprehenderit!</p>
-  </section>
-
-  <div class="overflow-x-auto rounded-lg">
-    <table class="text-sm mb-8 ml-12 w-11/12">
-      {#each cardDocs as card}
-        <tbody>
-          <tr class="bg-[#eee9e9] border-b border-zinc-300">
-            <th scope="row" class="font-medium text-black whitespace-nowrap">
-                {card.title}
-            </th>
-            <td>
-              {card.description}
-            </td>
-            <td class="px-2 py-2 whitespace-no-wrap border-b text-sm text-right  border-zinc-300">
-              <button class="px-2 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none mr-2"><a href="#">{card.form}</a></button>
-              <button class="px-2 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none mr-2"><a href="#">{card.doc}</a></button>
-              <button class="px-2 py-2 mr-4 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none"><a href="#">{card.pdf}</a></button>
-            </td>
-          </tr>
-        </tbody>
-        {/each}
-    </table>
-  </div>
-
-  <section class="m-8 mr-52 ml-12 mt-12">
-    <div class="border-r w-1 bg-emerald-600">
-      <h4 class="ml-2 whitespace-nowrap">Pregão Eletrônico</h4>
     </div>
     <p class="font-light mt-4">Lorem ipsum dolor sit amet. Ad culpa iusto id quibusdam inventore quo internos adipisci ut molestias iure est autem iusto qui soluta maiores. Ab quia internos est unde galisum rem quisquam consequatur nam facere libero aut voluptas maiores. In veniam dolores et nobis modi nam assumenda Quis ut modi quia quo facilis voluptas vel accusantium molestiae et velit architecto. Ut blanditiis itaque ut aliquam maxime aut autem dolorem et quia reprehenderit!</p>
   </section>
@@ -119,6 +63,7 @@
         {/each}
     </table>
   </div>
+
 
   <footer class=" bg-emerald-600 bottom-0 inset-x-0 p-1 px-1">
     <section class="flex bottom-0 inset-x-0 mb-4 ml-6 text-neutral-200">
@@ -150,6 +95,3 @@
       
     </section>
   </footer>  
-
-
-
