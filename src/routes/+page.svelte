@@ -3,35 +3,34 @@
     
     //const logo = new URL('/src/images/TRE_Logo.png', import.meta.url).href;
     const cardData = [
-  {
-  id: "1",
-  title: "Planejamento de Contratações",
-  },
-  {
-  id: "2",
-  title: "Documentos",
-  },
-  {
-  id: "3",
-  title: "Registro de Preços",
-  },
-  {
-  id: "4",
-  title: "Licitações Publicadas",
-  },
-  {
-  id: "5",
-  title: "Gestores e fiscais de contratação",
-  },
-  {
-  id: "6",
-  title: "Fornecedores Emissão de CRC",
-  },
-  {
-  id: "7",
-  title: "Pesquisa de Preços",
-  
-  },
+      {
+        id: "1",
+        title: "Planejamento de Contratações",
+      },
+      {
+        id: "2",
+        title: "Documentos",
+      },
+      {
+        id: "3",
+        title: "Registro de Preços",
+      },
+      {
+        id: "4",
+        title: "Licitações Publicadas",
+      },
+      {
+        id: "5",
+        title: "Gestores e fiscais de contratação",
+      },
+      {
+        id: "6",
+        title: "Fornecedores Emissão de CRC",
+      },
+      {
+        id: "7",
+        title: "Pesquisa de Preços",
+      },
   ];
   
   let showModal = false;

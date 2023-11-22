@@ -35,7 +35,7 @@
           <a class="text-gray-800 hover:text-blue-400" href="">Institucional</a>
           <a class="text-gray-800 hover:text-blue-400" href="#">Cidadão</a>
           <a class="text-gray-800 hover:text-blue-400" href="#">Agente Público</a>
-          <a class="text-gray-800 hover:text-blue-400" href="#">Empresas e Fornecedores</a>
+          <a class="text-gray-800 hover:text-blue-400" href="/page-cadastro">Empresas e Fornecedores</a>
           <a class="text-gray-800 hover:text-blue-400" href="/page-documentos">Documentações</a>   
           <a class="text-gray-800 hover:text-blue-400" href="/page-planejamentos">Planejamentos</a>       
          <form class="flex items-center space-x-2 border-2 border-gray-200 bg-gray-200 rounded-full p-1">
